@@ -1,0 +1,95 @@
+@import "../../styles/variables";
+
+.header {
+  background: $DarkBlue;
+  box-shadow: 0px 5px 0px #0186ff;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100px;
+
+  padding: 0 1.5rem;
+
+  @include breakpoint(md) {
+    padding: 0 3rem;
+  }
+  transition: 0.3s ease all;
+
+  &__content {
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 100;
+
+    @include breakpoint(md) {
+      flex-direction: row;
+      padding-bottom: 2rem;
+      line-height: normal;
+      align-items: baseline;
+    }
+
+    &__title {
+      z-index: 100;
+    }
+
+    &__nav {
+      top: 0;
+      right: 100%;
+      bottom: 0;
+      width: 100%;
+      height: 80vh;
+      position: fixed;
+      z-index: 99;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      background: $DarkBlue;
+      backdrop-filter: blur(2px);
+      transform: translate(0);
+      transition: 0.3s ease transform;
+      // box-shadow: $boxShadow;
+      padding-top: 7rem;
+
+      @include breakpoint(md) {
+        padding-top: 0;
+        transform: none;
+        flex-direction: row;
+        align-items: flex-end;
+        background: transparent;
+        width: auto;
+        height: 100%;
+        position: static;
+        box-shadow: none;
+      }
+      &.isMenu {
+        z-index: 20;
+        transform: translate(100%);
+      }
+    }
+    &__menuControls {
+      color: white;
+      z-index: 20;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      font-size: 3rem;
+      transition: 0.3s ease all;
+      position: relative;
+
+      @include breakpoint(md) {
+        display: none;
+      }
+    }
+  }
+}
+
+.toogler {
+  color: white;
+  cursor: pointer;
+}

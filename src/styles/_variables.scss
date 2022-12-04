@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;900&display=swap");
+
+//fonts
+$Montserrat: "Montserrat", sans-serif;
+
+//colors
+$DarkBlue: #004aa6;
+$LightBlue: #0186ff;
+$Yellow: #fff100;
+
+.DarkBlue {
+  color: $DarkBlue;
+}
+
+.LightBlue {
+  color: $LightBlue;
+}
+
+.Yellow {
+  color: $Yellow;
+}
+
+.White {
+  color: white;
+}
+
+@mixin breakpoint($point) {
+  @if $point == xs {
+    @media (min-width: 320px) {
+      @content;
+    }
+  }
+  @if $point == sm {
+    @media (min-width: 576px) {
+      @content;
+    }
+  }
+  @if $point == md {
+    @media (min-width: 768px) {
+      @content;
+    }
+  }
+  @if $point == lg {
+    @media (min-width: 992px) {
+      @content;
+    }
+  }
+  @if $point == xl {
+    @media (min-width: 1200px) {
+      @content;
+    }
+  }
+  @if $point == xxl {
+    @media (min-width: 1440px) {
+      @content;
+    }
+  }
+}
+
+.Title {
+  font-family: $Montserrat;
+  font-weight: 400;
+
+  font-size: 24px;
+
+  @include breakpoint(md) {
+    // font-size: calc(50px + (78 - 50) * ((100vw - 1024px) / (1920 - 1024)));
+    font-size: 35px;
+  }
+  @include breakpoint(lg) {
+    font-size: 50px;
+  }
+}
+
+.Text {
+  font-family: $Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+.Text-bold {
+  font-family: $Montserrat;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.Button-blue {
+  cursor: pointer;
+  background-color: transparent;
+  will-change: box-shadow, transform;
+  border-radius: 112px;
+  text-align: center;
+
+  @include breakpoint(xs) {
+    padding: 1rem 3rem;
+    border: 3px solid $DarkBlue;
+  }
+  @include breakpoint(md) {
+    border: 5px solid $DarkBlue;
+    max-width: 90%;
+  }
+
+  @include breakpoint(lg) {
+    max-width: 80%;
+  }
+}
+
+.Button-blue:hover {
+  transform: translateY(-2px);
+}
+.Button-blue:active {
+  transform: translateY(1px);
+  box-shadow: $DarkBlue 0 2px 3px inset;
+}
+
+.Button-white {
+  cursor: pointer;
+  background-color: transparent;
+  will-change: box-shadow, transform;
+  border-radius: 112px;
+
+  @include breakpoint(xs) {
+    border: 3px solid white;
+  }
+  @include breakpoint(md) {
+    border: 5px solid white;
+  }
+}

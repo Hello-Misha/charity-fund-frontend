@@ -16,8 +16,8 @@ function App() {
       <Header />
       <main>
         <Main />
+        <Medicine />
       </main>
-      <Medicine />
     </>
     /* </main> */
     // </Routes>

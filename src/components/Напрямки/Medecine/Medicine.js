@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 import { useTranslation } from "react-i18next";
 
@@ -11,11 +11,6 @@ import Doctors from "../../../img/Doctors.png";
 export default function Medecine() {
   const { t } = useTranslation();
 
-  useEffect(() => {
-    const medicineImg = document.getElementById("medicineImg");
-    console.log(medicineImg.offsetHeight);
-  });
-
   return (
     <section className={classes.section}>
       <div className={classes.section__textBlock}>
@@ -24,8 +19,8 @@ export default function Medecine() {
           text={t("homePage.medecine.text")}
           btn={t("homePage.medecine.btn")}
         />
+        <span className={classes.section__circle}></span>
       </div>
-      <span className={classes.section__circle}></span>
       <img
         src={Doctors}
         alt="doctors"

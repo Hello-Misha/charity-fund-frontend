@@ -60,11 +60,13 @@ $Yellow: #fff100;
 .Title {
   font-family: $Montserrat;
   font-weight: 400;
-
-  font-size: 24px;
-
+  @include breakpoint(xs) {
+    font-size: 20px;
+  }
+  @include breakpoint(sm) {
+    font-size: 24px;
+  }
   @include breakpoint(md) {
-    // font-size: calc(50px + (78 - 50) * ((100vw - 1024px) / (1920 - 1024)));
     font-size: 35px;
   }
   @include breakpoint(lg) {

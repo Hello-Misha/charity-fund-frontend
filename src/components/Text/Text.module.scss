@@ -8,7 +8,7 @@
   position: relative;
   z-index: 100;
 
-  @include breakpoint(md) {
+  @include breakpoint(lg) {
     justify-content: center;
 
     height: auto;
@@ -16,9 +16,9 @@
 
   &__title {
     text-align: center;
-    padding-bottom: 75%;
+    padding-bottom: 70%;
 
-    @include breakpoint(md) {
+    @include breakpoint(lg) {
       padding-bottom: 0;
       text-align: left;
     }
@@ -26,12 +26,12 @@
 
   &__block {
     background-color: white;
-    @include breakpoint(md) {
+    @include breakpoint(lg) {
       background-color: transparent;
     }
   }
 
   &__paragrapg {
-    padding-bottom: 2rem;
+    padding: 2rem 0;
   }
 }

@@ -11,7 +11,7 @@ export default function Text(props) {
         {props.title}
       </h2>
       <div className={classes.Text__block}>
-        <p className={` ${classes.Text__paragrapg} Text DarkBlue`}>
+        <p className={` ${classes.Text__paragraph} Text DarkBlue`}>
           {[props.text]}
         </p>
         {/* <Link> */}

@@ -41,10 +41,10 @@ a:not([class]) {
   height: 100%;
 }
 
-// html {
-//   scroll-behavior: smooth;
-//   scroll-padding-top: 15rem;
-// }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 15rem;
+}
 
 body {
   min-height: 100vh;

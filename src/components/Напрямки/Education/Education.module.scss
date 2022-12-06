@@ -1,0 +1,83 @@
+@import "../../../styles/variables";
+
+.section {
+  position: relative;
+  z-index: 2;
+  background-color: $Yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin-bottom: 5rem;
+
+  margin-top: 5rem;
+
+  // overflow: hidden;
+
+  @include breakpoint(lg) {
+    flex-direction: row;
+    max-width: 1440px;
+  }
+
+  &__textBlock {
+    position: relative;
+    @include breakpoint(lg) {
+      right: 8%;
+
+      top: clamp(2rem, 10vw, 10rem);
+      max-width: 40%;
+    }
+  }
+
+  &__circle {
+    background: white;
+    border-radius: 50%;
+    width: 75vw;
+    height: 75vw;
+
+    position: absolute;
+    z-index: 1;
+
+    top: -15%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include breakpoint(lg) {
+      width: clamp(50vw, 1vw, 55vw);
+      height: clamp(50vw, 1vw, 55vw);
+
+      max-width: 670px;
+      max-height: 670px;
+
+      position: absolute;
+      top: -1rem;
+      left: 45%;
+    }
+  }
+
+  &__img {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+    z-index: 2;
+
+    width: 100%;
+    max-width: 60%;
+    height: auto;
+
+    margin: 0 auto;
+
+    @include breakpoint(lg) {
+      position: relative;
+      top: 0;
+      left: -5%;
+
+      max-width: 50%;
+      width: 100%;
+      height: auto;
+    }
+  }
+}

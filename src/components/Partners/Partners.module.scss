@@ -1,0 +1,62 @@
+@import "../../styles/variables";
+
+.section {
+  position: relative;
+  z-index: 2;
+  background-color: $DarkBlue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 5rem;
+
+  margin-top: 5rem;
+
+  &__partner {
+    position: relative;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+
+    padding: clamp(1rem, 2vw, 4rem) 0;
+
+    &__text {
+      max-width: 60%;
+      padding: 0 clamp(1rem, 5vw, 5rem);
+    }
+
+    &__img {
+      position: relative;
+      z-index: 2;
+
+      width: clamp(20%, 2vw, 50%);
+      //   height: auto;
+      //   max-width: clamp(20%, 2vw, 50%);
+
+      //   max-width: clamp(30%, 2vw, 100%);
+      //   height: auto;
+
+      margin: 0 clamp(1rem, 2vw, 5rem);
+    }
+  }
+
+  &__circle {
+    background: white;
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+
+    position: absolute;
+    z-index: 1;
+  }
+
+  &__CirclePosition_1 {
+    top: -25%;
+    left: -5%;
+  }
+  &__CirclePosition_2 {
+    bottom: -25%;
+    right: -5%;
+  }
+}

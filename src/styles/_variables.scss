@@ -60,52 +60,33 @@ $Yellow: #fff100;
 .Title {
   font-family: $Montserrat;
   font-weight: 400;
-  @include breakpoint(xs) {
-    font-size: 20px;
-  }
-  @include breakpoint(sm) {
-    font-size: 24px;
-  }
-  @include breakpoint(md) {
-    font-size: 35px;
-  }
-  @include breakpoint(lg) {
-    font-size: 50px;
-  }
+
+  font-size: clamp(20px, 3vw, 40px);
 }
 
 .Text {
   font-family: $Montserrat;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: clamp(14px, 2vw, 20px);
 }
 .Text-bold {
   font-family: $Montserrat;
   font-style: bold;
   font-weight: 700;
-  font-size: 18px;
+  font-size: clamp(14px, 2vw, 20px);
 }
 
 .Button-blue {
   cursor: pointer;
   background-color: transparent;
   will-change: box-shadow, transform;
-  border-radius: 112px;
+
   text-align: center;
 
-  @include breakpoint(xs) {
-    padding: 1rem 3rem;
-    border: 3px solid $DarkBlue;
-  }
-  @include breakpoint(md) {
-    border: 5px solid $DarkBlue;
-    max-width: 90%;
-  }
-
-  @include breakpoint(lg) {
-    max-width: 80%;
-  }
+  border-radius: 112px;
+  border: 3px solid $DarkBlue;
+  padding: 1rem 3rem;
 }
 
 .Button-blue:hover {
@@ -121,11 +102,5 @@ $Yellow: #fff100;
   background-color: transparent;
   will-change: box-shadow, transform;
   border-radius: 112px;
-
-  @include breakpoint(xs) {
-    border: 3px solid white;
-  }
-  @include breakpoint(md) {
-    border: 5px solid white;
-  }
+  border: 3px solid white;
 }

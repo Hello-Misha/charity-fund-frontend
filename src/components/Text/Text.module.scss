@@ -31,7 +31,7 @@
     }
   }
 
-  &__paragrapg {
-    padding: 2rem 0;
+  &__paragraph {
+    padding: clamp(1rem, 1vw, 2rem) 0;
   }
 }

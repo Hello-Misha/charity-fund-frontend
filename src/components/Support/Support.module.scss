@@ -1,0 +1,51 @@
+@import "../../styles/variables";
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  position: relative;
+  z-index: 100;
+
+  @include breakpoint(lg) {
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: auto;
+  }
+
+  &__img {
+    width: clamp(323px, 100%, 468px);
+    height: 100%;
+    margin: 0 auto;
+
+    padding-bottom: clamp(1rem, 1vw, 2rem);
+
+    @include breakpoint(lg) {
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  &__block {
+    @include breakpoint(lg) {
+      max-width: 40%;
+    }
+    &__paragraph {
+      padding: clamp(1rem, 1vw, 2rem) 0;
+
+      &__p {
+        padding-bottom: clamp(1rem, 1vw, 2rem);
+      }
+    }
+    &__title {
+      text-align: center;
+
+      @include breakpoint(lg) {
+        padding-bottom: 0;
+        text-align: left;
+      }
+    }
+  }
+}

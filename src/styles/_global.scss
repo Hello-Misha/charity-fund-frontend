@@ -63,7 +63,7 @@ main {
 }
 
 section {
-  margin: 0 8.5vw;
+  margin: 0 clamp(30px, 8vw, 125px);
   // max-width: 1440px;
 }
 

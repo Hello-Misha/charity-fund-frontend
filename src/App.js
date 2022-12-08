@@ -3,6 +3,8 @@ import Main from "./components/Main/Main";
 import Medicine from "./components/Напрямки/Medecine/Medicine";
 import Education from "./components/Напрямки/Education/Education";
 import Partners from "./components/Partners/Partners";
+import Support from "./components/Support/Support";
+import Footer from "./components/Footer/Footer";
 
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import ScrollToTop from "../src/components/Techelements/ScrollToTop/scrollToTop";
@@ -20,8 +22,10 @@ function App() {
         <Main />
         <Medicine />
         <Education />
+        <Support />
         <Partners />
       </main>
+      <Footer />
     </>
     /* </main> */
     // </Routes>

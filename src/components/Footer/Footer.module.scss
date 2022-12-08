@@ -1,0 +1,41 @@
+@import "../../styles/variables";
+
+.footer {
+  background: $DarkBlue;
+  height: 500px;
+
+  &__content {
+    max-width: 1440px;
+    height: inherit;
+    margin: 0 clamp(30px, 8vw, 125px);
+    padding: clamp(30px, 4vw, 65px) 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__description {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      padding: 0 clamp(1rem, 5vw, 5rem);
+
+      @include breakpoint(md) {
+        flex-direction: row-reverse;
+      }
+
+      &__support {
+        padding-bottom: 3rem;
+        @include breakpoint(md) {
+          padding-bottom: 0;
+        }
+      }
+    }
+
+    &__nav {
+      display: flex;
+      justify-content: space-around;
+      padding: 0 clamp(80px, 20vw, 600px);
+    }
+  }
+}

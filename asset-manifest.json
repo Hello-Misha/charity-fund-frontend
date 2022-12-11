@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/charity-fund-frontend/static/css/main.a12b8cac.css",
+    "main.js": "/charity-fund-frontend/static/js/main.91524b64.js",
+    "static/media/Doctors-x2.png": "/charity-fund-frontend/static/media/Doctors-x2.3de56f38f050248ef328.png",
+    "static/media/Girl-x2.png": "/charity-fund-frontend/static/media/Girl-x2.9f48c2eb869440e60b91.png",
+    "static/media/Founder-x2.png": "/charity-fund-frontend/static/media/Founder-x2.9620ddb9c0835bc20907.png",
+    "static/media/Doctors-x1.png": "/charity-fund-frontend/static/media/Doctors-x1.8771c5b83606838d354f.png",
+    "static/media/Girl-x1.png": "/charity-fund-frontend/static/media/Girl-x1.be185a53f008ca30f4bd.png",
+    "static/media/Founder-x1.png": "/charity-fund-frontend/static/media/Founder-x1.0e15056dfdd8a232a218.png",
+    "static/media/BeyondWords-x2.png": "/charity-fund-frontend/static/media/BeyondWords-x2.c5ed4a51e3f6bd97778c.png",
+    "static/media/SmileTrain-x2.png": "/charity-fund-frontend/static/media/SmileTrain-x2.12a8a1b98e62128b5206.png",
+    "static/media/Ukrainian-Project.png": "/charity-fund-frontend/static/media/Ukrainian-Project.9638604c0b3547beb932.png",
+    "index.html": "/charity-fund-frontend/index.html",
+    "static/media/getFetch.cjs": "/charity-fund-frontend/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.a12b8cac.css.map": "/charity-fund-frontend/static/css/main.a12b8cac.css.map",
+    "main.91524b64.js.map": "/charity-fund-frontend/static/js/main.91524b64.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a12b8cac.css",
+    "static/js/main.91524b64.js"
+  ]
+}

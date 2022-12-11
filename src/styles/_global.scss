@@ -64,6 +64,7 @@ main {
 
 section {
   margin: 80px clamp(30px, 8vw, 125px);
+  overflow: hidden;
 }
 
 .square {

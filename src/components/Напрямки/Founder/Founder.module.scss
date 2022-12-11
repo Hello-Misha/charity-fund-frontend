@@ -3,7 +3,6 @@
 .section {
   position: relative;
 
-  background-color: $Yellow;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -14,17 +13,47 @@
     height: 722px;
   }
 
+  // &__quote {
+  //   position: absolute;
+  //   z-index: 2;
+  //   max-width: 40%;
+  // }
+
   &__textBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     position: relative;
+    z-index: 100;
     @include breakpoint(lg) {
-      left: 50%;
-      top: clamp(16px, 8vw, 120px);
-      max-width: 45%;
+      justify-content: center;
+
+      height: auto;
+      left: 0;
+      bottom: -200px;
+      max-width: 50%;
+    }
+
+    &__title {
+      color: white;
+      text-align: center;
+      padding-bottom: 70%;
+
+      @include breakpoint(lg) {
+        color: $DarkBlue;
+        padding-bottom: 0;
+        text-align: left;
+      }
+    }
+
+    &__paragraph {
+      padding: clamp(1rem, 1vw, 2rem) 0;
     }
   }
 
   &__circle {
-    background: white;
+    background: $LightBlue;
     border-radius: 50%;
     width: 75vw;
     height: 75vw;
@@ -46,32 +75,28 @@
       max-height: 670px;
 
       position: absolute;
-      top: -1rem;
-      left: 45%;
+      top: -170px;
+      left: 10%;
     }
   }
 
   &__img {
     position: absolute;
-    top: 5%;
-    left: 0;
-    right: 0;
+    top: 2.5rem;
+    left: 50%;
     z-index: 2;
-
     width: 100%;
-    max-width: 60%;
+    max-width: 40%;
     height: auto;
 
-    margin: 0 auto;
-
     @include breakpoint(lg) {
-      top: 21px;
-      right: 80%;
+      top: 0;
+      right: 0;
 
       height: auto;
       width: 100%;
-      max-width: 588px;
-      max-height: 702px;
+      max-width: 428px;
+      max-height: 715px;
     }
   }
 }

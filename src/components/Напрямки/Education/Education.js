@@ -14,13 +14,6 @@ export default function Education() {
 
   return (
     <section className={classes.section}>
-      <img
-        src={GirlX1}
-        srcset={`${GirlX1} 300w, ${GirlX2} 768w`}
-        alt="doctors"
-        className={classes.section__img}
-        id="medicineImg"
-      />
       <div className={classes.section__textBlock}>
         <Text
           title={t("homePage.education.title")}
@@ -29,6 +22,13 @@ export default function Education() {
         />
       </div>
       <span className={classes.section__circle}></span>
+      <img
+        src={GirlX1}
+        srcset={`${GirlX1} 300w, ${GirlX2} 768w`}
+        alt="doctors"
+        className={classes.section__img}
+        id="medicineImg"
+      />
     </section>
   );
 }

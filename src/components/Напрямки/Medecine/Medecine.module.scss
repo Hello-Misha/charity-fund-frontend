@@ -17,10 +17,9 @@
   &__textBlock {
     position: relative;
     @include breakpoint(lg) {
-      left: 8%;
-
-      top: clamp(2rem, 10vw, 10rem);
-      max-width: 40%;
+      left: clamp(40px, 5vw, 120px);
+      top: clamp(16px, 8vw, 120px);
+      max-width: 45%;
     }
   }
 
@@ -61,15 +60,13 @@
     height: auto;
 
     @include breakpoint(lg) {
-      position: relative;
-      top: 0;
+      top: 242px;
       right: 0;
 
-      padding-top: 15rem;
-
-      max-width: 50%;
-      width: 100%;
       height: auto;
+      width: 100%;
+      max-width: 710px;
+      max-height: 481px;
     }
   }
 }

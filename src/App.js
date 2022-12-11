@@ -3,6 +3,7 @@ import Main from "./components/Main/Main";
 import Medicine from "./components/Напрямки/Medecine/Medicine";
 import Education from "./components/Напрямки/Education/Education";
 import Partners from "./components/Partners/Partners";
+import Founder from "./components/Напрямки/Founder/Founder";
 import Support from "./components/Support/Support";
 import Footer from "./components/Footer/Footer";
 
@@ -22,6 +23,7 @@ function App() {
         <Main />
         <Medicine />
         <Education />
+        <Founder />
         <Support />
         <Partners />
       </main>

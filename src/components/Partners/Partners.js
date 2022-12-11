@@ -4,8 +4,10 @@ import { useTranslation } from "react-i18next";
 
 import classes from "./Partners.module.scss";
 
-import SmileTrain from "../../img/SmileTrain.png";
-import BeyondWords from "../../img/BeyondWords.png";
+import SmileTrainX1 from "../../img/SmileTrain-x1.png";
+import SmileTrainX2 from "../../img/SmileTrain-x2.png";
+import BeyondWordsX1 from "../../img/BeyondWords-x1.png";
+import BeyondWordsX2 from "../../img/BeyondWords-x2.png";
 
 function Partners() {
   const { t } = useTranslation();
@@ -13,7 +15,8 @@ function Partners() {
     <section className={classes.section}>
       <div className={`${classes.section__partner}`}>
         <img
-          src={SmileTrain}
+          src={SmileTrainX1}
+          srcset={`${SmileTrainX1} 300w, ${SmileTrainX2} 768w`}
           alt="SmileTrain logo"
           className={`${classes.section__partner__img}`}
         />
@@ -32,7 +35,8 @@ function Partners() {
         </p>
 
         <img
-          src={BeyondWords}
+          src={BeyondWordsX1}
+          srcset={`${BeyondWordsX1} 300w, ${BeyondWordsX2} 768w`}
           alt="BeyondWords logo"
           className={`${classes.section__partner__img}`}
         />

@@ -6,7 +6,8 @@ import Text from "../../Text/Text";
 
 import classes from "./Education.module.scss";
 
-import Girl from "../../../img/Girl.png";
+import GirlX1 from "../../../img/Girl-x1.png";
+import GirlX2 from "../../../img/Girl-x2.png";
 
 export default function Education() {
   const { t } = useTranslation();
@@ -14,17 +15,17 @@ export default function Education() {
   return (
     <section className={classes.section}>
       <img
-        src={Girl}
+        src={GirlX1}
+        srcset={`${GirlX1} 300w, ${GirlX2} 768w`}
         alt="doctors"
         className={classes.section__img}
         id="medicineImg"
-        // onClick={console.log(imgHeight)}
       />
       <div className={classes.section__textBlock}>
         <Text
-          title={t("homePage.medecine.title")}
-          text={t("homePage.medecine.text")}
-          btn={t("homePage.medecine.btn")}
+          title={t("homePage.education.title")}
+          text={t("homePage.education.text")}
+          btn={t("homePage.education.btn")}
         />
       </div>
       <span className={classes.section__circle}></span>

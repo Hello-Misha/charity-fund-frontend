@@ -8,15 +8,10 @@
   flex-direction: column;
   justify-content: space-between;
 
-  margin-bottom: 5rem;
-
-  margin-top: 5rem;
-
-  // overflow: hidden;
-
   @include breakpoint(lg) {
     flex-direction: row;
     max-width: 1440px;
+    height: 722px;
   }
 
   &__textBlock {
@@ -24,11 +19,8 @@
     @include breakpoint(lg) {
       left: 8%;
 
-      top: 10vw;
-    }
-    @include breakpoint(xl) {
+      top: clamp(2rem, 10vw, 10rem);
       max-width: 40%;
-      top: 10vw;
     }
   }
 
@@ -48,23 +40,15 @@
     margin-right: auto;
 
     @include breakpoint(lg) {
-      width: 45rem;
-      height: 45rem;
+      width: clamp(50vw, 1vw, 55vw);
+      height: clamp(50vw, 1vw, 55vw);
+
+      max-width: 670px;
+      max-height: 670px;
 
       position: absolute;
-      top: -35%;
-      left: -25%;
-      margin: auto;
-    }
-
-    @include breakpoint(xl) {
-      width: 50rem;
-      height: 50rem;
-    }
-
-    @include breakpoint(xxl) {
-      width: 55rem;
-      height: 55rem;
+      top: -1rem;
+      right: 45%;
     }
   }
 
@@ -74,7 +58,6 @@
     z-index: 2;
 
     width: 100%;
-    max-width: 100%;
     height: auto;
 
     @include breakpoint(lg) {

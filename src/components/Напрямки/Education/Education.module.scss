@@ -8,15 +8,10 @@
   flex-direction: column;
   justify-content: space-between;
 
-  margin-bottom: 5rem;
-
-  margin-top: 5rem;
-
-  // overflow: hidden;
-
   @include breakpoint(lg) {
     flex-direction: row;
     max-width: 1440px;
+    height: 722px;
   }
 
   &__textBlock {

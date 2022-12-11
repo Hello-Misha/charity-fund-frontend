@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 
 import { useTranslation } from "react-i18next";
 
@@ -6,36 +6,28 @@ import Text from "../../Text/Text";
 
 import classes from "./Medecine.module.scss";
 
-import Doctors from "../../../img/Doctors.png";
+import DoctorsX1 from "../../../img/Doctors-x1.png";
+import DoctorsX2 from "../../../img/Doctors-x2.png";
 
 export default function Medecine() {
-  const imgElement = useRef(null);
-
-  useEffect(() => {
-    let imgElement = document.getElementById("medicineImg");
-    console.log(imgElement.offsetHeight);
-  });
-
   const { t } = useTranslation();
 
   return (
     <section className={classes.section}>
       <div className={classes.section__textBlock}>
         <Text
-          imgHeight={imgElement.offsetHeight}
           title={t("homePage.medecine.title")}
           text={t("homePage.medecine.text")}
           btn={t("homePage.medecine.btn")}
         />
-        <span className={classes.section__circle}></span>
       </div>
       <img
-        src={Doctors}
+        src={DoctorsX1}
+        srcset={`${DoctorsX1} 300w, ${DoctorsX2} 768w`}
         alt="doctors"
         className={classes.section__img}
-        id="medicineImg"
-        // onClick={console.log(imgHeight)}
       />
+      <span className={classes.section__circle}></span>
     </section>
   );
 }

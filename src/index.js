@@ -25,7 +25,7 @@ i18next
     },
     backend: {
       loadPath:
-        "charity-fund-frontend/public/assets/locales/{{lng}}/translation.json",
+        "https://hello-misha.github.io/charity-fund-frontend/public/assets/locales/{{lng}}/translation.json",
     },
   });
 

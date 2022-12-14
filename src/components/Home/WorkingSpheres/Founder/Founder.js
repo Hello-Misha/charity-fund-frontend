@@ -6,8 +6,8 @@ import { useTranslation } from "react-i18next";
 
 import classes from "./Founder.module.scss";
 
-import FounderX1 from "../../../img/Founder-x1.png";
-import FounderX2 from "../../../img/Founder-x2.png";
+import FounderX1 from "../../../../img/Founder-x1.png";
+import FounderX2 from "../../../../img/Founder-x2.png";
 
 function Founder() {
   const { t } = useTranslation();

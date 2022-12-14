@@ -1,9 +1,9 @@
-@import "../../../styles/variables";
+@import "../../../../styles/variables";
 
 .section {
   position: relative;
 
-  background-color: $LightBlue;
+  background-color: $Yellow;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -17,7 +17,7 @@
   &__textBlock {
     position: relative;
     @include breakpoint(lg) {
-      left: clamp(40px, 5vw, 120px);
+      left: 50%;
       top: clamp(16px, 8vw, 120px);
       max-width: 45%;
     }
@@ -47,26 +47,31 @@
 
       position: absolute;
       top: -1rem;
-      right: 45%;
+      left: 45%;
     }
   }
 
   &__img {
     position: absolute;
-    top: 5rem;
+    top: 5%;
+    left: 0;
+    right: 0;
     z-index: 2;
 
     width: 100%;
+    max-width: 60%;
     height: auto;
 
+    margin: 0 auto;
+
     @include breakpoint(lg) {
-      top: 242px;
-      right: 0;
+      top: 21px;
+      right: 80%;
 
       height: auto;
       width: 100%;
-      max-width: 710px;
-      max-height: 481px;
+      max-width: 588px;
+      max-height: 702px;
     }
   }
 }

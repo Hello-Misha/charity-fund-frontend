@@ -2,12 +2,12 @@ import React from "react";
 
 import { useTranslation } from "react-i18next";
 
-import Text from "../../Text/Text";
+import Text from "../../../Techelements/HomePageText/HomePageText";
 
 import classes from "./Medecine.module.scss";
 
-import DoctorsX1 from "../../../img/Doctors-x1.png";
-import DoctorsX2 from "../../../img/Doctors-x2.png";
+import DoctorsX1 from "../../../../img/Doctors-x1.png";
+import DoctorsX2 from "../../../../img/Doctors-x2.png";
 
 export default function Medecine() {
   const { t } = useTranslation();

@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 
 import classes from "./Main.module.scss";
 
-import logo from "../../img/Ukrainian-Project.png";
+import logo from "../../../img/Ukrainian-Project.png";
 
 function Main() {
   const { t } = useTranslation();

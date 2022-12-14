@@ -2,7 +2,7 @@ import React from "react";
 
 import classes from "./Text.module.scss";
 
-// import { HashLink as Link } from "react-router-hash-link";
+import { HashLink as Link } from "react-router-hash-link";
 
 export default function Text(props) {
   return (
@@ -14,9 +14,9 @@ export default function Text(props) {
         <p className={` ${classes.Text__paragraph} Text DarkBlue`}>
           {[props.text]}
         </p>
-        {/* <Link> */}
-        <div className="Button-blue Text-bold DarkBlue">{props.btn}</div>
-        {/* </Link> */}
+        <Link to={props.link}>
+          <div className="Button-blue Text-bold DarkBlue">{props.btn}</div>
+        </Link>
       </div>
     </article>
   );

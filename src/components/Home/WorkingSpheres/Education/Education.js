@@ -2,12 +2,14 @@ import React from "react";
 
 import { useTranslation } from "react-i18next";
 
-import Text from "../../Text/Text";
+// import { HashLink as Link } from "react-router-hash-link";
+
+import Text from "../../../Techelements/HomePageText/HomePageText";
 
 import classes from "./Education.module.scss";
 
-import GirlX1 from "../../../img/Girl-x1.png";
-import GirlX2 from "../../../img/Girl-x2.png";
+import GirlX1 from "../../../../img/Girl-x1.png";
+import GirlX2 from "../../../../img/Girl-x2.png";
 
 export default function Education() {
   const { t } = useTranslation();
@@ -18,6 +20,7 @@ export default function Education() {
         <Text
           title={t("homePage.education.title")}
           text={t("homePage.education.text")}
+          link="/education"
           btn={t("homePage.education.btn")}
         />
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 import classes from "./Support.module.scss";
-import supportImage from "../../img/support.png";
+import supportImage from "../../../img/support.png";
 
 function Support() {
   const { t } = useTranslation();

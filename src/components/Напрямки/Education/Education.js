@@ -24,7 +24,7 @@ export default function Education() {
       <span className={classes.section__circle}></span>
       <img
         src={GirlX1}
-        srcset={`${GirlX1} 300w, ${GirlX2} 768w`}
+        srcSet={`${GirlX1} 300w, ${GirlX2} 768w`}
         alt="doctors"
         className={classes.section__img}
         id="medicineImg"

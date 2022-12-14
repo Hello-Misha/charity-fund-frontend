@@ -29,7 +29,7 @@ function Founder() {
 
       <img
         src={FounderX1}
-        srcset={`${FounderX1} 300w, ${FounderX2} 768w`}
+        srcSet={`${FounderX1} 300w, ${FounderX2} 768w`}
         alt="doctors"
         className={classes.section__img}
       />

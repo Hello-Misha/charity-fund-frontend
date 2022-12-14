@@ -16,7 +16,7 @@ function Partners() {
       <div className={`${classes.section__partner}`}>
         <img
           src={SmileTrainX1}
-          srcset={`${SmileTrainX1} 300w, ${SmileTrainX2} 768w`}
+          srcSet={`${SmileTrainX1} 300w, ${SmileTrainX2} 768w`}
           alt="SmileTrain logo"
           className={`${classes.section__partner__img}`}
         />
@@ -36,7 +36,7 @@ function Partners() {
 
         <img
           src={BeyondWordsX1}
-          srcset={`${BeyondWordsX1} 300w, ${BeyondWordsX2} 768w`}
+          srcSet={`${BeyondWordsX1} 300w, ${BeyondWordsX2} 768w`}
           alt="BeyondWords logo"
           className={`${classes.section__partner__img}`}
         />

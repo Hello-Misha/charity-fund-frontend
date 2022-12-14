@@ -23,7 +23,7 @@ export default function Medecine() {
       </div>
       <img
         src={DoctorsX1}
-        srcset={`${DoctorsX1} 300w, ${DoctorsX2} 768w`}
+        srcSet={`${DoctorsX1} 300w, ${DoctorsX2} 768w`}
         alt="doctors"
         className={classes.section__img}
       />

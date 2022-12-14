@@ -24,7 +24,7 @@ i18next
       caches: ["cookie"],
     },
     backend: {
-      loadPath: "../assets/locales/{{lng}}/translation.json",
+      loadPath: "/charity-fund-frontend/locales/{{lng}}/translation.json",
     },
   });
 

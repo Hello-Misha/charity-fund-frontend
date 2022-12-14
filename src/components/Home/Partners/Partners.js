@@ -4,9 +4,9 @@ import { useTranslation } from "react-i18next";
 
 import classes from "./Partners.module.scss";
 
-import SmileTrainX1 from "../../../img/SmileTrain-x1.png";
+import SmileTrainX1 from "../../../img/SmileTrain-X1.png";
 import SmileTrainX2 from "../../../img/SmileTrain-x2.png";
-import BeyondWordsX1 from "../../../img/BeyondWords-x1.png";
+import BeyondWordsX1 from "../../../img/BeyondWords-X1.png";
 import BeyondWordsX2 from "../../../img/BeyondWords-x2.png";
 
 function Partners() {

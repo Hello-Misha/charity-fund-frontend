@@ -8,32 +8,49 @@
       "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi."
     },
     "medecine": {
-      "title": "Медичний напрямок",
+      "title": "Medical",
       "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. ",
       "btn": "Дізнатися більше"
+    },
+    "education": {
+      "title": "Освітній напрямок",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. ",
+      "btn": "Дізнатися більше",
+      "about": [
+        {
+          "title": "Lorem ipsum dolor sit amet",
+          "linkText": "Lorem ipsum dolor sit amet"
+        },
+        {
+          "title": "Lorem ipsum dolor sit amet",
+          "linkText": "Lorem ipsum dolor sit amet"
+        },
+        {
+          "title": "Lorem ipsum dolor sit amet",
+          "linkText": "Lorem ipsum dolor sit amet"
+        },
+        {
+          "title": "Lorem ipsum dolor sit amet",
+          "linkText": "Lorem ipsum dolor sit amet"
+        }
+      ]
+    },
+    "founder": {
+      "title": "Освітній напрямок",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. ",
+      "quote": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt"
+    },
+    "support": {
+      "title": "Допомогти",
+      "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+      "iban": "IBAN: UA00 0000 0000 0000 0000 00",
+      "bank": "PrivatBank 0000 2222 3333 4444",
+      "btn": "Пожертвувати"
+    },
+    "partners": {
+      "partner_1": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad",
+      "partner_2": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad"
     }
-  },
-  "education": {
-    "title": "Освітній напрямок",
-    "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. ",
-    "btn": "Дізнатися більше",
-    "about": "test"
-  },
-  "founder": {
-    "title": "Освітній напрямок",
-    "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. ",
-    "quote": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt"
-  },
-  "support": {
-    "title": "Допомогти",
-    "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
-    "iban": "IBAN: UA00 0000 0000 0000 0000 00",
-    "bank": "PrivatBank 0000 2222 3333 4444",
-    "btn": "Пожертвувати"
-  },
-  "partners": {
-    "partner_1": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad",
-    "partner_2": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad"
   },
   "footer": {
     "address": {

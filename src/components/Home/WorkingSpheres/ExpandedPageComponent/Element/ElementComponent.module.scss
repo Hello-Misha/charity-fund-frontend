@@ -1,0 +1,30 @@
+@import "../../../../../styles/variables";
+
+element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0;
+
+  @include breakpoint(sm) {
+    flex-direction: row;
+  }
+
+  img {
+    border-radius: 3%;
+
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+  }
+
+  &__text {
+    margin-top: 1rem;
+    text-align: center;
+
+    @include breakpoint(sm) {
+      text-align: left;
+      margin-left: 1rem;
+    }
+  }
+}

@@ -16,9 +16,10 @@ function ExpandedPageComponent() {
 
   return (
     <main>
-      <h1>{t("homePage.education.about.0.title")}</h1>
       <section className={classes.section}>
-        {/* <h2 className={`Title DarkBlue`}>Hello</h2> */}
+        <h2 className={`Title DarkBlue`}>
+          {t("homePage.education.aboutTitle")}
+        </h2>
         <div className={classes.section__container}>
           {/* ELEMENT START*/}
           {aboutArr.map((elem, index) => {

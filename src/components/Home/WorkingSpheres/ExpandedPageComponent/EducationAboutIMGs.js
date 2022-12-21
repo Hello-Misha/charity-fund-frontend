@@ -1,6 +1,4 @@
-// import imgage from "../../../../img/SmileTrain-X1.png"
-import testImg from "../../../../img/testImg.png";
+import Img from "../../../../img/TestEducation.png";
 
-const EducationAboutIMGs = [testImg, testImg, testImg, testImg];
-
+const EducationAboutIMGs = [Img, Img, Img, Img];
 export default EducationAboutIMGs;

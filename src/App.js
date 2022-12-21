@@ -12,6 +12,9 @@ import Home from "./components/Home/Home";
 
 import ExpandedPageComponent from "./components/Home/WorkingSpheres/ExpandedPageComponent/ExpandedPageComponent";
 
+import EducationAboutIMGs from "./components/Home/WorkingSpheres/ExpandedPageComponent/EducationAboutIMGs";
+import MedicineAboutIMGs from "./components/Home/WorkingSpheres/ExpandedPageComponent/MedicineAboutIMGs";
+
 function App() {
   return (
     <BrowserRouter>
@@ -19,7 +22,21 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/education" element={<ExpandedPageComponent />} />
+        <Route
+          path="/education"
+          element={
+            <ExpandedPageComponent
+              page={"education"}
+              img={EducationAboutIMGs}
+            />
+          }
+        />
+        <Route
+          path="/medicine"
+          element={
+            <ExpandedPageComponent page={"medicine"} img={MedicineAboutIMGs} />
+          }
+        />
       </Routes>
       <Footer />
     </BrowserRouter>

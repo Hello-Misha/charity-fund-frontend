@@ -16,9 +16,10 @@ export default function Medecine() {
     <section className={classes.section}>
       <div className={classes.section__textBlock}>
         <Text
-          title={t("homePage.medecine.title")}
-          text={t("homePage.medecine.text")}
-          btn={t("homePage.medecine.btn")}
+          title={t("homePage.medicine.title")}
+          text={t("homePage.medicine.text")}
+          link="/medicine"
+          btn={t("homePage.medicine.btn")}
         />
       </div>
       <img

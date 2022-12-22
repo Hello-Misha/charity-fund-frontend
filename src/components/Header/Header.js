@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 // import { useTranslation } from "react-i18next";
-import { HashLink as Link } from "react-router-hash-link";
+// import { HashLink as Link } from "react-router-hash-link";
 import LanguageToogler from "./Nav/LanguageToogler.js";
 
 import { BiMenu } from "react-icons/bi";
@@ -46,9 +46,9 @@ const Header = () => {
             menuOpen && size.width < 768 ? classes.isMenu : ""
           }`}
         >
-          <Link to="/">
-            <h2 className="White Text-bold">ФОНД</h2>
-          </Link>
+          {/* <Link to="/"> */}
+          <h2 className="White Text-bold">ФОНД</h2>
+          {/* </Link> */}
         </div>
         <nav
           className={`${classes.header__content__nav} ${

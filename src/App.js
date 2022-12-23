@@ -1,6 +1,6 @@
 import React from "react";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/Techelements/ScrollToTop/scrollToTop";
 
 //PAGES
@@ -18,7 +18,7 @@ import MedicineAboutIMGs from "./components/Home/WorkingSpheres/ExpandedPageComp
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <ScrollToTop />
       <Header />
       <Routes>
@@ -41,7 +41,7 @@ function App() {
         <Route path="/*" element={<Page404 />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </Router>
   );
 }
 

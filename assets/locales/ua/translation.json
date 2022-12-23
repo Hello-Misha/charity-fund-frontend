@@ -4,21 +4,59 @@
   },
   "homePage": {
     "main": {
-      "title": "Це сайт найкращого в світі фонда ",
+      "title": "Це сайт найкращого в світі фонда TEST TEST TEST",
       "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi."
     },
-    "medecine": {
+    "medicine": {
       "title": "Медичний напрямок",
       "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. ",
-      "btn": "Дізнатися більше"
+      "btn": "Дізнатися більше",
+      "aboutTitle": "Медичний напрямок",
+      "about": [
+        {
+          "title": "Lorem ipsum dolor sit amet",
+          "linkText": "Lorem ipsum dolor sit amet"
+        },
+        {
+          "title": "Lorem ipsum dolor sit amet",
+          "linkText": "Lorem ipsum dolor sit amet"
+        },
+        {
+          "title": "Lorem ipsum dolor sit amet",
+          "linkText": "Lorem ipsum dolor sit amet"
+        },
+        {
+          "title": "Lorem ipsum dolor sit amet",
+          "linkText": "Lorem ipsum dolor sit amet"
+        }
+      ]
     },
     "education": {
       "title": "Освітній напрямок",
       "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. ",
-      "btn": "Дізнатися більше"
+      "btn": "Дізнатися більше",
+      "aboutTitle": "Освітній напрямок",
+      "about": [
+        {
+          "title": "Lorem ipsum dolor sit amet",
+          "linkText": "Lorem ipsum dolor sit amet"
+        },
+        {
+          "title": "Lorem ipsum dolor sit amet",
+          "linkText": "Lorem ipsum dolor sit amet"
+        },
+        {
+          "title": "Lorem ipsum dolor sit amet",
+          "linkText": "Lorem ipsum dolor sit amet"
+        },
+        {
+          "title": "Lorem ipsum dolor sit amet",
+          "linkText": "Lorem ipsum dolor sit amet"
+        }
+      ]
     },
     "founder": {
-      "title": "Освітній напрямок",
+      "title": "Засновник",
       "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. ",
       "quote": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt"
     },
@@ -50,5 +88,9 @@
       "About": "About",
       "Privacy": "Privacy"
     }
+  },
+  "array": {
+    "text": "hello",
+    "arr": ["a", "b", "c"]
   }
 }

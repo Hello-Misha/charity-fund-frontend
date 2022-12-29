@@ -12,6 +12,19 @@ import LanguageDetector from "i18next-browser-languagedetector";
 
 import App from "./App";
 
+import { initializeApp } from "firebase/app";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyAYscBuo7jOX5YxY-Yn5eTyz6oVObjHpEE",
+  authDomain: "charity-fund-frontend.firebaseapp.com",
+  projectId: "charity-fund-frontend",
+  storageBucket: "charity-fund-frontend.appspot.com",
+  messagingSenderId: "1040414228167",
+  appId: "1:1040414228167:web:17adf2dc28b390f0a8c8e2",
+};
+
+initializeApp(firebaseConfig);
+
 i18next
   .use(HttpApi)
   .use(initReactI18next)

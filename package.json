@@ -1,12 +1,13 @@
 {
   "name": "charity",
-  "homepage": "https://hello-misha.github.io/charity-fund-frontend/",
+  "homepage": "https://Hello-Misha.github.io/charity-fund-frontend",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "firebase": "^9.15.0",
     "i18next-browser-languagedetector": "^6.1.8",
     "i18next-http-backend": "^1.4.4",
     "js-cookie": "^3.0.1",
